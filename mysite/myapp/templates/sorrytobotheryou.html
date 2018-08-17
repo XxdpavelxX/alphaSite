@@ -1,0 +1,89 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>4 Col Portfolio - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static '4-col-portfolio/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static '4-col-portfolio/css/4-col-portfolio.css' %}" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/books">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/movies">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/yolo">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <style>
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    </style>
+  <a href="#"><img class="card-img-top center" src="http://images.entertainment.ie/images_content/rectangle/620x372/Untitled2018312928705.jpg" alt="" style="width:800px;height:600px;" ></a>
+
+  <p align="center">
+      The movie starts off inoccuously enough with the main protagonist being a regular guy trying to find a job to help <br />
+      provide for his family. After this the movie slowly transitions to the primary moral dilemma of the film which is <br />
+      the protagonist having to choose between joining his friends and sticking to his morals or getting a promotion at <br />
+      work (for a company that sells weapons and promotes "slavery"). The protagonist initially chooses his job over <br />
+      friends, girlfriend, and ideals. While the movie tries to make it look like the protagonist is in the wrong and give <br />
+      his friends, protesters the moral high ground it instead comes off as making them look immature, and jealous of the<br />
+      protagonist's newfound success. During this time the movie attempts to inject humor by adding some random, forced <br />
+      scenes such as a tv show where the contestant getting beatup is the primary selling point. As the protagonist proceeds <br />
+      working at his now high paying job he very gradually and predictably predictably questions his choice. The protagonist <br />
+      however doesnt "learn" his lesson until his job forces him into ridiculous extremes including discovering enslaved horse <br />
+      people in the basement of his boss's home. Overall Sorry to Bother you is a movie that tries to satirize black identity <br />
+      and corporate ethics, but comes off flat due to a slow and predictable plot as well as boring characters. It is a movie <br />
+      that does a lot of things including comedy, drama, sci-fi, and politics but does a mediocre job at each. And while there <br />
+      are a few chuckle worthy moments in the film I wouldn't recommend it for most people.
+  </p>
+
+  <h6>
+      <p>Rating: 6/10 </p>
+  </h6>
+
+{% include "copyRight.html" %}
